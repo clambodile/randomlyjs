@@ -23,7 +23,7 @@ randomly(1, 3, 5, 7, 8)
 //works with callbacks
 const buggify = function(fn) {
   return function() {
-    return randomly(fn(...arguments), (() => new Error('Oopsie Whoopsie!'))())
+    return randomly(fn(...arguments), (() => new Error('Unexpected Token:😏'))())
   }
 }
 ```
