@@ -1,0 +1,14 @@
+{
+  "name": "randomlyjs",
+  "version": "1.0.0",
+  "description": "randomly choose one of several alternatives",
+  "main": "randomly.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "John Jacob",
+  "license": "MIT"
+}
