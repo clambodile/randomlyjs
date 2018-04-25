@@ -24,3 +24,18 @@ test('does not return any alternative overwhelmingly often', function (t) {
     t.ok(choice < 20)
   })
 })
+
+test('works with callbacks', function (t) {
+  t.plan(2)
+  let choices = [0, 0]
+  let cb1 = () => choices[0]++
+  let cb2 = () => choices[1]++
+
+  for (let i = 0; i < 100; i++) {
+    randomly(cb1(), cb2())
+  }
+
+  choices.forEach(choice => {
+    t.ok(choice > 30)
+  })
+})
