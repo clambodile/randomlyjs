@@ -4,12 +4,18 @@
   "description": "randomly choose one of several alternatives",
   "main": "randomly.js",
   "scripts": {
-    "test": "test"
+    "test": "node test.js"
   },
   "keywords": [
     "random"
   ],
   "author": "John Jacob",
-  "repository": "github.com/clambodile/randomlyjs",
-  "license": "MIT"
+  "repository": {
+    "url": "git@github.com/clambodile/randomlyjs",
+    "type": "git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
 }
