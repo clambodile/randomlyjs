@@ -5,7 +5,7 @@ Make random decisions
 ## Install
 
 ```bash
-$ npm install randomly
+$ npm install randomlyjs
 ```
 
 ## Usage
