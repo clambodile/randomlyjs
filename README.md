@@ -11,7 +11,7 @@ $ npm install randomly
 ## Usage
 
 ```js
-const randomly = require('randomly')
+const randomly = require('randomlyjs')
 
 randomly('foo', 'bar')
 //50% of the time, returns 'foo'; 50% of the time, returns 'bar'
