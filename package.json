@@ -10,5 +10,6 @@
     "random"
   ],
   "author": "John Jacob",
+  "repository": "github.com/clambodile/randomlyjs",
   "license": "MIT"
 }
